@@ -7,6 +7,11 @@ Common CSS ==========*/
   font-family: sans-serif;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 /*=================
 Banner CSS ==========*/
 
@@ -114,5 +119,110 @@ button:hover span {
 }
 
 button:hover {
+  border: none;
+}
+
+/*=================
+Upcming Design CSS ==========*/
+
+section {
+  width: 80%;
+  margin: 80px auto;
+}
+
+.title h1 {
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #000000;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.title h1::after {
+  content: "";
+  height: 4px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 400px;
+  bottom: -30px;
+  transition: 0.4s;
+}
+
+.title h1:hover::after {
+  width: 20%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.row .col {
+  width: 100%;
+}
+
+.row .col img {
+  width: 80%;
+  margin-left: 50px;
+}
+
+.design .row {
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: "Times New Roman";
+  color: #484872;
+  margin: 20px auto;
+  text-align: center;
+}
+
+p {
+  color: #7c7c7c;
+  padding: 0px 40px;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+.design .ctn {
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  margin-left: 200px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #009688;
+  background: transparent;
+  color: #000000;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.design .ctn span {
+  background: #009688;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.6s;
+}
+
+.design .ctn:hover span {
+  width: 100%;
+}
+
+.design .ctn:hover {
   border: none;
 }
