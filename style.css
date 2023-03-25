@@ -147,7 +147,7 @@ section {
   width: 0;
   background: #009688;
   position: absolute;
-  left: 400px;
+  left: 428px;
   bottom: -30px;
   transition: 0.4s;
 }
@@ -225,4 +225,87 @@ p {
 
 .design .ctn:hover {
   border: none;
+}
+
+/*====================
+Interior Design CSS ============*/
+
+.inner-design {
+  font-family: "Roboto", sans-serif;
+  background: #333;
+  padding-top: 20px;
+}
+
+.header {
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+  position: relative;
+}
+
+.header::after {
+  content: "";
+  height: 4px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 539px;
+  bottom: -20px;
+  transition: 0.4s;
+}
+
+.header:hover::after {
+  width: 20%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
+}
+
+.design-box {
+  padding: 1rem;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.design-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.img {
+  position: relative;
+  background-color: #fff;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(100, 100, 100, 0.5);
+  border-radius: 45px;
+}
+
+.design-title h3 {
+  color: #fff;
+  margin: 0.5rem;
+  transition: 0.3s;
+}
+
+.design-title h3:hover {
+  color: #009688;
 }
