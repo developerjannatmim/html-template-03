@@ -309,3 +309,166 @@ Interior Design CSS ============*/
 .design-title h3:hover {
   color: #009688;
 }
+
+/*====================
+Our Services CSS ============*/
+
+.services {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.services h1 {
+  font-size: 48px;
+  margin: 30px;
+  text-align: center;
+}
+
+.services p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.services .container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.services .box {
+  height: 150px;
+  width: 500px;
+  border-radius: 20px;
+  background: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  padding: 10px 15px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.services .icon {
+  height: 110px;
+  width: 150px;
+}
+
+.services .icon i {
+  font-size: 60px;
+  color: red;
+}
+
+.services .details {
+  height: 110px;
+}
+
+.services .details h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.services .details p {
+  text-align: left;
+}
+
+/*====================
+About Us CSS ============*/
+
+.about {
+  width: 100%;
+  height: 100vh;
+  background-color: #161922;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .content img {
+  height: auto;
+  width: 600px;
+  max-width: 100%;
+}
+
+.about .text {
+  width: 550px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.about .content {
+  width:  1280px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about .text h1 {
+  color: #ffcc74;
+  font-size: 85px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.about .text h5 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.about .text p {
+  color: #c0c4d6;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 45px;
+}
+
+.about button {
+  background-color: #ffcc74;
+  color: black;
+  border: 2px solid transparent;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.about button:hover {
+  transform: scale(1.2);
+  background-color: transparent;
+  border: 2px solid #ffcc74;
+  color: #ffcc74;
+  transition: .4s;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
